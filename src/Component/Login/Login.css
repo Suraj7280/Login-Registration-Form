@@ -1,0 +1,81 @@
+
+.Login-registration-box{
+    background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(9,88,121,1) 37%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.Login-Container-first{
+    height: 30rem;
+    width: 40rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 6rem;
+    border-radius: 1.3rem;
+    
+}
+.login-left-right{
+    display: flex;
+    flex: 1;
+    justify-content:space-around;  
+}
+.login-svg-right{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.login-svg-left{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: -4rem;
+    
+}
+.loginim{
+    height: 20rem;
+    width: 12rem;
+}
+.for-sign{
+    margin-top: 1rem;
+    justify-content: space-between;
+    display: flex;
+}
+.login-forgt{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(176, 174, 174);
+    margin-left: 0.3rem;
+}
+.login-forgt:hover{
+    color: blue;
+}
+.login-sign{
+    text-decoration: none;
+    color: rgb(101, 156, 251);
+    font-size: 0.9rem;
+}
+.login-sign:hover{
+    color: rgb(0, 93, 254);
+}
+.l-button{
+    margin-top: 1.2rem;
+    height: 2rem;
+    width: 12.2rem;
+    background-color: rgba(109, 109, 250, 0.93);
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+.l-button:hover{
+    background-color: rgba(96, 96, 250, 0.93);
+}
+.sign-deco{
+    margin-bottom: 1.2rem;
+}
+.login-field{
+    margin-bottom: 0.7rem;
+}
